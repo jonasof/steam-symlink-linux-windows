@@ -13,19 +13,19 @@ linux games.
 ## Usage
 
 Firt copy config.dist.php to config.php, then open and change the source
-common folder, the destinations common folder, and the game list folder
+common folder, the destination common folder, and the game list folder
 where are placed .vpk files.
 
 You have two options to symlink:
  * Option 1:
    * The windows steam game needs to be updated
-   * Run createlink_force.php to force the link of all vpk files from windows
+   * Run "php createlink_force.php" to force the link of all vpk files from windows
      to linux.
    * Run file integrity check on steam linux game to download the different
      files.
  * Option 2:
    * Download all updated game in windows and in linux.
-   * Run createlink_ifequal.php to link only equal .vpk.
+   * Run "php createlink_ifequal.php" to link only equal .vpk.
  * Test games in linux. If you get any error, run integrity file check.
 
 ## Additional info
